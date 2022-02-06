@@ -26,7 +26,7 @@
     <canvas>width="150" height"200"</canvas>
     <p>Que mueble te gusta</p>
     <P>Buscanos aqui tu <strong>Mueble</strong>
-    <input type="text" id="texto_lineas"/>
+      <input type="text" id="texto_lineas"/>
       <input type="button" value="Aceptar" id="boton"/></P>
     <script>
         var usuario = prompt("base");
@@ -40,7 +40,7 @@
         if(mueble == 1)
      {
          valor_total = precio + g_Cabecera + g_Base;
-         nombre = "Cabecera y Cabecera";
+         nombre = "Cabecera y base";
      }
      else if(mueble == 2)
      {
@@ -48,9 +48,9 @@
          nombre = "Colchon y Base";
 
      }
-     else if(mueble ==3)
+     else
      {
-       valor_total = precio + g_Buros + g_Base;
+       valor_total = "Error";
        nombre = "Base y Buros";
      }
      valor_total = parseInt(valor_total);      
