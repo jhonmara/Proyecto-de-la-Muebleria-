@@ -26,13 +26,33 @@
     <canvas>width="150" height"200"</canvas>
     <p>Ya estamos en la Web</p>
     <P>Buscanos aqui en <strong>Web</strong>!!</P>
+    <input type="text" id="texto_lineas"/>
+      <input type="button" value="Aceptar" id="boton"/>
     <script>
-        var usuario = prompt("Cual mueble elijes");
-        var planeta = parseInt(prompt("Elige tu mueble\n1 es Base, 2 es Cabecera"));
-        var peso = parseInt(usuario);
+        var usuario = prompt("Cual mueble eliges");
+        var mueble = parseInt(prompt("Elige tu mueble\n1 es Base, 2 es Cabecera"));
+        var precio = parseInt(usuario);
         var g_Base = 1200;
         var g_Cabecera = 1200;
-        var g_Buros = 1200;        
+        var g_Buros = 1200;  
+        valor_total;
+        if(mueble == 1)
+     {
+         valor_total = precio + g_Base + g_Colchon;
+         nombre = "Cabecera y Colchon";
+     }
+     else if(mueble == 2)
+     {
+         valor_total = precio + g_Base + g_Cabacera;
+         nombre = "Cabecera y Base";
+
+     }
+     else
+     {
+       valor_total = precio + g_Base + g_Buros;
+       nombre = "Base y Buros";
+     }
+     valor_total = parseInt(valor_total);      
         valor_total = g_Colchon+ g_Base + g_Cabecera
         document.write(valor_total + " pesos");
 
