@@ -27,10 +27,12 @@
     <p>Ya estamos en la Web</p>
     <P>Buscanos aqui en <strong>Web</strong>!!</P>
     <script>
+        var usuario = prompt("Cual mueble elijes");
+        var planeta = parseInt(prompt("Elige tu mueble\n1 es Base, 2 es Cabecera"));
+        var peso = parseInt(usuario);
         var g_Base = 1200;
         var g_Cabecera = 1200;
-        var g_Buros = 1200;
-        var g_Colchon = 4200;
+        var g_Buros = 1200;        
         valor_total = g_Colchon+ g_Base + g_Cabecera
         document.write(valor_total + " pesos");
 
