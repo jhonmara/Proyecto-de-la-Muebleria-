@@ -24,10 +24,10 @@
 </head>
 <body>
     <canvas>width="150" height"200"</canvas>
-    <p>Ya estamos en la Web</p>
-    <P>Buscanos aqui en <strong>Web</strong>!!</P>
+    <p>Que mueble te gusta</p>
+    <P>Buscanos aqui tu<strong>Mueble</strong>!!
     <input type="text" id="texto_lineas"/>
-      <input type="button" value="Aceptar" id="boton"/>
+      <input type="button" value="Aceptar" id="boton"/></P>
     <script>
         var usuario = prompt("Cual mueble eliges");
         var mueble = parseInt(prompt("Elige tu mueble\n1 es Base, 2 es Cabecera"));
@@ -47,16 +47,15 @@
          nombre = "Cabecera y Base";
 
      }
-     else
+     else if(mueble ==3)
      {
        valor_total = precio + g_Base + g_Buros;
        nombre = "Base y Buros";
      }
      valor_total = parseInt(valor_total);      
-        valor_total = g_Colchon+ g_Base + g_Cabecera
-        document.write(valor_total + " pesos");
 
-    
+       
+     document.write("Tu mueble en " + nombre+ " es <strong> " + valor_total + " Pesos</strong>");
     </script>
 
     
