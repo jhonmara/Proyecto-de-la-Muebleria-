@@ -14,5 +14,6 @@ como son:
 
 Extenso surtido en Muebles de Madera,
 Visita nuestra pagina en Facebook: **Comercializadora de Muebles Maya Maravatío** y danos un :tw-1f44d:
-O en Google **Comercializadora de Muebles Maya Maravatío**
+O en buscanos en Google **Comercializadora de Muebles Maya Maravatío**
 Es creado por amor la pagina
+Todos nuestros Articulos tienen Garantia
