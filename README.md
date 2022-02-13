@@ -1,15 +1,28 @@
 # Proyecto-de-la Muebleria- :tw-1f49a:
+
 **Comercializadora de Muebles Maya Maravatío**
+
 Somos la mejor opción!!!
-Tenemos gran variedad de Muebles de excelente calidad!!
+
+Tenemos gran variedad de Muebles de 
+
+excelente calidad!!
 como son:
+
 *Buros,
+
 *Centro de entretenimiento,
+
 *Comedores,
+
 *Recamaras,
+
 *Salas,
+
 *Vitrinas,
+
 *Cabeceras,
+
 *Etc.;
 
 Extenso surtido en Muebles de Madera,
